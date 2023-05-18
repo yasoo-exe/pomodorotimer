@@ -79,11 +79,11 @@ function lb() {
   pomodoro.removeAttribute("id", "black");
   shortbreak.removeAttribute("id", "green");
   favicon.setAttribute("href", "./Images/favicon-blue.ico");
-  timer.innerHTML = "00:05";
+  timer.innerHTML = "30:00";
   startMin = 1 / 12;
   time = startMin * 60;
   start.innerHTML = "START";
-  title.innerHTML = "00:05 - Time for a break!";
+  title.innerHTML = "30:00 - Time for a break!";
   message.innerHTML = "Time for a break!";
   nexxt = 0;
 }
