@@ -78,7 +78,7 @@ function lb() {
   document.body.style.backgroundColor = "rgb(57, 112, 151)";
   pomodoro.removeAttribute("id", "black");
   shortbreak.removeAttribute("id", "green");
-  favicon.setAttribute("href", "./Images/logo.png");
+  favicon.setAttribute("href", "./Images/favicon-blue.ico");
   timer.innerHTML = "30:00";
   startMin = 30;
   time = startMin * 60;
