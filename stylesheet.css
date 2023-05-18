@@ -1,0 +1,203 @@
+body,
+.mainbox {
+  transition: 0.5s ease-in-out 0s;
+}
+
+body {
+  background-color: rgb(84, 87, 100);
+  color: white;
+
+  font-family: "ArialRounded", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.mainbox {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 30px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: white;
+  max-width: 480px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#start {
+  cursor: pointer;
+  font-size: 18px;
+  width: 165px;
+  height: 50px;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: rgb(84, 87, 100);
+  font-weight: bold;
+  background-color: white;
+  position: relative;
+}
+
+#dunno {
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 50px;
+  width: 22px;
+  opacity: 0.9;
+  cursor: pointer;
+  text-align: center;
+}
+#dunno:hover {
+  opacity: 0.5;
+}
+
+#start:active {
+  margin-top: 26px;
+  margin-bottom: -6px;
+  transition: 0.05s ease-in-out 0s;
+}
+
+.none {
+  display: none;
+}
+
+.pomodoro:active,
+.shortbreak:active,
+.longbreak:active {
+  margin-top: 1px;
+  margin-bottom: -1px;
+}
+
+#options {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 05px;
+  display: block;
+  text-align: center;
+}
+
+#countingjack {
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  opacity: 0.6;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#countingjack:hover {
+  opacity: 1;
+}
+
+#twolines {
+  padding-top: 20px;
+}
+
+#message {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.pomodoro {
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.shortbreak {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  box-shadow: none;
+  background: none;
+  font-weight: 300;
+}
+
+.longbreak {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+
+#black {
+  font-weight: 700;
+  background: none rgba(0, 0, 0, 0.15);
+  background-color: rgb(84, 87, 100);
+}
+
+#green {
+  font-weight: 700;
+  background: none rgba(0, 0, 0, 0.15);
+  background-color: rgb(56, 133, 138);
+}
+
+#blue {
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.15);
+  background-color: rgb(57, 112, 151);
+}
+
+#countingjack {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoimage {
+  width: 30px;
+  margin-right: 4px;
+  display: inline-block;
+  line-height: 1.4em;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
+#logotext {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  line-height: 1.4em;
+}
