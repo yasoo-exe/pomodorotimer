@@ -80,7 +80,7 @@ function lb() {
   shortbreak.removeAttribute("id", "green");
   favicon.setAttribute("href", "./Images/favicon-blue.ico");
   timer.innerHTML = "30:00";
-  startMin = 1 / 12;
+  startMin = 30;
   time = startMin * 60;
   start.innerHTML = "START";
   title.innerHTML = "30:00 - Time for a break!";
